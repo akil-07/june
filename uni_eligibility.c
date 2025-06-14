@@ -16,16 +16,16 @@ void main()
         else if (dept == 2) printf("Selected IT");
         else if (dept == 3) printf("Selected Cyber");
         else if (dept == 4) printf("Selected CSE");
-        else { printf("Invalid course!"); getch(); return; }
+        else { printf("Invalid course!"); getch();  }
     }
  else if (course == 2)
  {
-        printf("\n\t=== MECHANICAL ===\n1) Auto\n2) Thermal\n3) CAD/CAM\nEnter choice (1-3): ");
+        printf("\n\t=== MECHANICAL ===\n1) Automobile\n2) Thermal\n3) CAD/CAM\nEnter choice (1-3): ");
         scanf("%d", &dept);
-        if (dept == 1) printf("Selected Auto");
+        if (dept == 1) printf("Selected Automobile");
         else if (dept == 2) printf("Selected Thermal");
         else if (dept == 3) printf("Selected CAD/CAM");
-        else { printf("Invalid course!"); getch(); return; }
+        else { printf("Invalid course!"); getch();  }
     }
  else if (course == 3) 
 {
@@ -34,11 +34,11 @@ void main()
         if (dept == 1) printf("Selected Power");
         else if (dept == 2) printf("Selected Embedded");
         else if (dept == 3) printf("Selected Machines");
-        else { printf("Invalid course!"); getch(); return; }
+        else { printf("Invalid course!"); getch(); }
     }
  else
  {
-        printf("Invalid department!"); getch(); return;
+        printf("Invalid department!"); getch(); 
     }
     printf("\nEnter name: ");
     scanf("%s", name);
