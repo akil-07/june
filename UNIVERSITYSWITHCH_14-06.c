@@ -96,8 +96,7 @@ void main() {
 
 	default:
 	    printf("\nInvalid department selection!");
-	    getch();
-	    return;
+	    getch();
     }
 
 
