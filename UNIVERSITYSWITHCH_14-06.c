@@ -116,8 +116,8 @@ void main() {
     printf("Enter your Chemistry mark: ");
     scanf("%d", &c);
 
-    cutoff = m + (p / 2.0f) + (c / 2.0f);
-    printf("\nYour cutoff is: %.2f", cutoff);
+    cutoff = m + (p / 2.0) + (c / 2.0);
+    printf("\nYour cutoff is: %f", cutoff);
 
 
     if (course == 1)
